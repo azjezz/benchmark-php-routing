@@ -11,7 +11,7 @@
     "ext-apcu": "*",
     "phpbench/phpbench": "^1.0",
     "symfony/routing": "^4.4",
-    "nikic/fast-route": "^2.0@dev",
+    "nikic/fast-route": "dev-implement-new-dispatcher@dev",
     "azjezz/hack-routing": "dev-main",
     "symfony/config": "^5.3"
   },

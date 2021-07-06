@@ -21,6 +21,7 @@ final class QuickBenchmark
             'symfony' => Symfony\Symfony::class,
             'hack-routing' => HackRouting\HackRouting::class,
             'fast-route(mark)' => FastRoute\FastRouteMarkBased::class,
+            'fast-route(compact-mark)' => FastRoute\FastRouteCompactMarkBased::class,
         ],
 
         'cached' => [
@@ -30,6 +31,8 @@ final class QuickBenchmark
             'hack-routing:cached(apcu)' => HackRouting\HackRoutingApcuCached::class,
             'fast-route(mark):cached(file)' => FastRoute\FastRouteMarkBasedFilesCached::class,
             'fast-route(mark):cached(apcu)' => FastRoute\FastRouteMarkBasedApcuCached::class,
+            'fast-route(compact-mark):cached(file)' => FastRoute\FastRouteCompactMarkBasedFilesCached::class,
+            'fast-route(compact-mark):cached(apcu)' => FastRoute\FastRouteCompactMarkBasedApcuCached::class,
         ],
 
         'instance' => [
@@ -37,6 +40,7 @@ final class QuickBenchmark
             'symfony:instance' => Symfony\SymfonyInstance::class,
             'hack-routing:instance' => HackRouting\HackRoutingInstance::class,
             'fast-route(mark):instance' => FastRoute\FastRouteMarkBasedInstance::class,
+            'fast-route(compact-mark):instance' => FastRoute\FastRouteCompactMarkBasedInstance::class,
         ]
     ];
 

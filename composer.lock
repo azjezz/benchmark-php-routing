@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "969b8242a1d65169eba9b7b1525e6e70",
+    "content-hash": "af34fd73208987bedf5b61e06efc8a28",
     "packages": [
         {
             "name": "azjezz/hack-routing",
@@ -281,16 +281,16 @@
         },
         {
             "name": "nikic/fast-route",
-            "version": "dev-master",
+            "version": "dev-implement-new-dispatcher",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/FastRoute.git",
-                "reference": "ea5d3abe8b9fc7d63bb42b0384cb1db60972ff68"
+                "reference": "dd5d2fec20eea7ad8565b9420ae2e723186aefa0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/ea5d3abe8b9fc7d63bb42b0384cb1db60972ff68",
-                "reference": "ea5d3abe8b9fc7d63bb42b0384cb1db60972ff68",
+                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/dd5d2fec20eea7ad8565b9420ae2e723186aefa0",
+                "reference": "dd5d2fec20eea7ad8565b9420ae2e723186aefa0",
                 "shasum": ""
             },
             "require": {
@@ -309,7 +309,6 @@
             "suggest": {
                 "ext-apcu": "To be able to use APCu cache driver"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -341,9 +340,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/FastRoute/issues",
-                "source": "https://github.com/nikic/FastRoute/tree/master"
+                "source": "https://github.com/nikic/FastRoute/tree/implement-new-dispatcher"
             },
-            "time": "2021-06-21T15:01:25+00:00"
+            "time": "2021-07-06T22:09:01+00:00"
         },
         {
             "name": "phpbench/container",
